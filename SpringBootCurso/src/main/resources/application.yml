@@ -1,0 +1,6 @@
+server:  port: 8181
+
+spring:
+  banner:
+    location: classpath:bannerConsole/banner.txt
+  thymeleaf:    cache: true
