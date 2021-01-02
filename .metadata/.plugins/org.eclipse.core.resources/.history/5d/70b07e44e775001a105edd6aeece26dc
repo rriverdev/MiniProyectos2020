@@ -1,0 +1,46 @@
+package principal;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PruebaEncriptBanregio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+//		List <String> meses = new ArrayList();
+//		List <String> anio = new ArrayList();
+//		List<String> fechaa = new ArrayList();
+//		
+//			meses.add("01");
+//			meses.add("12");
+//			meses.add("08");
+//			
+//			anio.add("2020");
+//			anio.add("2019");
+//			anio.add("2019");
+//			
+//			for(int i = 0; i < meses.size(); i++){//comentar
+//				String MesAnio = meses.get(i)+ anio.get(i);
+//				System.out.println(MesAnio);
+//				System.out.println(MesAnio);
+//				fechaa.add(MesAnio);
+//				System.out.println("MesAño:"+fechaa.get(i));
+//				
+//			}
+//			
+//			System.out.println( "tamaño de arreglo: '"+fechaa.size() +"' espacios.");
+//			fechaa.hashCode();
+//			fechaa.hashCode();
+		
+		String enlanceHash = "[{\"cliente\":\"01201200\",\"hash\":\"YYeKDvrTtPZl4zkT7twM9f7pVfJNL50Y0sbpAQziw3ssVHUSksPLNQch8Ad%2FQWu%2FjFBia0Mf1VfHZrQXzq77NQl0iOQlepR4I7AKo73lYBAbrSs9uskn8ISxVkW6V5rdmF9znIg0r6YUooXt+NiDqH1wyrCRHfNgWCBr7AKzh7Ft9eOIHaZ%2FXJ9IdFU7mpWP\"}]";
+		
+		int localition = enlanceHash.indexOf("hassh\":");
+		System.out.println(localition);
+		
+		
+
+	}
+
+}

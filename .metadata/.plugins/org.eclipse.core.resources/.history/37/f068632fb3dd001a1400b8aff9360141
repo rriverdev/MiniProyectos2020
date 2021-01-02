@@ -1,0 +1,6 @@
+package com.rivasapp.repository;
+
+public interface IPersona {
+	
+
+}

@@ -1,0 +1,42 @@
+package principal;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PruebaEncriptBanregio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		List <String> meses = new ArrayList();
+		List <String> anio = new ArrayList();
+		List<String> fechaa = new ArrayList();
+		
+			meses.add("01");
+			meses.add("12");
+			meses.add("08");
+			
+			anio.add("2020");
+			anio.add("2019");
+			anio.add("2019");
+			
+			for(int i = 0; i < meses.size(); i++){//comentar
+				String MesAnio = meses.get(i)+ anio.get(i);
+				System.out.println(MesAnio);
+				System.out.println(MesAnio);
+				fechaa.add(MesAnio);
+				System.out.println("MesAño:"+fechaa.get(i));
+				
+			}
+			
+			System.out.println( "tamaño de arreglo"+fechaa.size());
+		
+		
+		
+		
+		
+
+	}
+
+}
